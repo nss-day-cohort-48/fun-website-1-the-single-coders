@@ -19,15 +19,27 @@ body {
       font-size: 50px;
   }
 
-  .leftcolumn {
+  .container {
+      display: flex;
+  }
+
+  .container__left {
     flex: 3;
-    flex-wrap: wrap;
+
   }
 
   .rightcolumn {
-    flex: 0;
+    flex: 1;
     background-color: white;
     padding-left: 20px;
+    margin-top: 1rem;
+    justify-content: right;
+    margin-bottom: 1rem;
+  }
+
+  aside {
+      padding: 1rem;
+      flex: 1;
 
   }
 
@@ -43,15 +55,33 @@ body {
       padding: 20px;
   }
 
+  .main__img {
+      max-height: 10rem;
+  }
+
+  .team__img {
+      object-fit: fill;
+  }
+
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-  }
+    margin-right: 7px;
+    margin-bottom: 20px;
+  } 
 
-  @media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
     }
+  }*/
+
+  footer {
+background-color: grey;
+margin: 0;
+padding: 10px;
+text-align: center;
+width: 100%;
   }
