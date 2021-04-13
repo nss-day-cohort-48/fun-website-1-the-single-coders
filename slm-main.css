@@ -19,8 +19,13 @@ body {
       font-size: 50px;
   }
 
+  .container {
+      display: flex;
+  }
+
   .container__left {
     flex: 3;
+
   }
 
   .rightcolumn {
@@ -29,12 +34,14 @@ body {
     padding-left: 20px;
     margin-top: 1rem;
     justify-content: right;
+    margin-bottom: 1rem;
 
   }
 
   aside {
       padding: 2rem;
       flex: 1;
+
   }
 
   .row:after {
@@ -63,3 +70,11 @@ body {
       padding: 0;
     }
   }*/
+
+  footer {
+background-color: grey;
+margin: 0;
+padding: 10px;
+text-align: center;
+width: 100%;
+  }
