@@ -1,0 +1,16 @@
+
+.article1 {
+    text-align: center;
+}
+.flexCard {
+    float:right;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+
+    
+}
+.card {
+    margin-bottom: 10px;
+}
+
