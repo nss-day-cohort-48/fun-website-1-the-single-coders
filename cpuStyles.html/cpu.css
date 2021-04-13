@@ -1,0 +1,11 @@
+.article1 {
+    text-align: center;
+}
+.flexCard {
+    clear:both;
+    float:right;
+}
+.moveCardRight {
+    display:flex;
+    flex-wrap:nowrap;
+}
