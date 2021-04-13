@@ -20,17 +20,21 @@ body {
   }
 
   .leftcolumn {
-    float: left;
-    width: 75%;
+    flex: 3;
+    flex-wrap: wrap;
   }
 
   .rightcolumn {
-    float: left;
-    width: 25%;
+    flex: 0;
     background-color: white;
     padding-left: 20px;
-    margin-top: 3rem;
-    padding-top: 2rem;
+
+  }
+
+  .row:after {
+      content: "",
+      display: table;
+      clear: both;
   }
 
   .fakeimg {
@@ -43,4 +47,11 @@ body {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
   }
