@@ -57,9 +57,9 @@ body {
     margin-bottom: 20px;
   } 
 
-  @media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
     }
-  }
+  }*/
