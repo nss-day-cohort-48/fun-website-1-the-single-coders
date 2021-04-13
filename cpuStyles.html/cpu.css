@@ -1,11 +1,16 @@
+
 .article1 {
     text-align: center;
 }
 .flexCard {
-    clear:both;
     float:right;
-}
-.moveCardRight {
     display:flex;
-    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content: start;
+
+    
 }
+.card {
+    margin-bottom: 10px;
+}
+
