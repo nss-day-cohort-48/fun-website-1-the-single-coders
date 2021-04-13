@@ -23,11 +23,15 @@ h2 {
     display: flex;
     flex-flow: row wrap;
     margin: 1rem;
+    justify-content: space-between;
+    border-top: 2px ridge black;
+    border-bottom: 1px ridge black;
+
 }
 
 .GPU_box {
     flex-direction: column;
-
+    
 }
 
 .GPU_image {
@@ -38,7 +42,7 @@ h2 {
     margin-left: 0.5rem;
     object-fit: cover;
     align-items: left;
-    border: 2px ridge rgb(235, 122, 122);
+    border: 3px groove rgb(170, 24, 24);
 } 
 
 .GPU_specs {
