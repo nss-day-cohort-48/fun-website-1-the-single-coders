@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+} 
+
+body {
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .header h1 {
+      font-size: 50px;
+  }
+
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .fakeimg {
+      background-color: grey;
+      width: 100%;
+      padding: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
