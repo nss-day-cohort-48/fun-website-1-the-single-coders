@@ -1,8 +1,18 @@
-
-.article1 {
-    text-align: center;
+.article1 { 
+    color:aliceblue;
+    background-color: black;
+    text-align: center; 
+    margin:20px;
+    border-radius: 8px;
 }
 
+.flexbox { 
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-evenly; 
+}
+
+<<<<<<< HEAD
 .flexbox {
     display: flex;
     flex-flow: row wrap;
@@ -17,5 +27,14 @@
 }
 .card {
     margin-bottom: 10px;
+=======
+.flexCard { 
+    flex-direction: column; 
+    justify-content: start;
+
+} .card { 
+    margin-bottom: 10px; 
+    border-radius: 8px;
+>>>>>>> 7f47527f7fcec4fc0323272ff5a406fc6ac5ceb7
 }
 
