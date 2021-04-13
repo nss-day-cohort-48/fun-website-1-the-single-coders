@@ -1,0 +1,57 @@
+body{
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: large;
+    text-decoration: underline;
+}
+
+.GPU_list {
+    
+}
+.GPU_pane {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+    justify-content: space-between;
+    border-top: 2px ridge black;
+    border-bottom: 1px ridge black;
+
+}
+
+.GPU_box {
+    flex-direction: column;
+    
+}
+
+.GPU_image {
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    align-items: left;
+    border: 3px groove rgb(170, 24, 24);
+} 
+
+.GPU_specs {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    
+}
+
+.container{
+    
+}
