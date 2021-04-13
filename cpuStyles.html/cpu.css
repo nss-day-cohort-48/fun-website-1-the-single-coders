@@ -1,0 +1,21 @@
+
+.article1 {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.flexCard {
+    flex-direction: column;
+    justify-content: start;
+ 
+    
+}
+.card {
+    margin-bottom: 10px;
+}
+
