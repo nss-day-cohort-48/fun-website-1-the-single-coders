@@ -19,5 +19,10 @@
 } .card { 
     margin-bottom: 10px; 
     border-radius: 8px;
+    background-color: black;
+    color:aliceblue;
+}
+img {
+    border-radius: 8px;
 }
 
