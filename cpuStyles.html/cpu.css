@@ -1,0 +1,28 @@
+.article1 { 
+    color:aliceblue;
+    background-color: black;
+    text-align: center; 
+    margin:20px;
+    border-radius: 8px;
+}
+
+.flexbox { 
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-evenly; 
+}
+
+.flexCard { 
+    flex-direction: column; 
+    justify-content: start;
+
+} .card { 
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    background-color: black;
+    color:aliceblue;
+}
+img {
+    border-radius: 8px;
+}
+
