@@ -2,12 +2,17 @@
 .article1 {
     text-align: center;
 }
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 .flexCard {
-    float:right;
-    display:flex;
     flex-direction: column;
     justify-content: start;
-
+ 
     
 }
 .card {
